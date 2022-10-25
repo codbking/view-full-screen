@@ -9,6 +9,7 @@
   "main": ".dist/view-full-screen.common.js",
   "repository": "https://github.com/codkbing/view-full-screen",
   "bugs": "https://github.com/codbking/view-full-screen/issues",
+
   "files": [
     "dist/*"
   ],
