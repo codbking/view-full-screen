@@ -1,0 +1,57 @@
+{
+  "name": "view-full-screen",
+  "version": "0.1.0",
+  "private": false,
+  "author": {
+    "name": "codbking",
+    "email": "codbking@gmail.com"
+  },
+  "main": ".dist/view-full-screen.common.js",
+  "repository": "https://github.com/codkbing/view-full-screen",
+  "bugs": "https://github.com/codbking/view-full-screen/issues",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-library": "vue-cli-service build --target lib --name view-full-screen ./src/lib/install.js"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "keywords": ["keywords", "go", "here"],
+  "license": "ISC"
+}
