@@ -1,15 +1,14 @@
 {
   "name": "view-full-screen",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": false,
   "author": {
     "name": "codbking",
     "email": "codbking@gmail.com"
   },
-  "main": ".dist/view-full-screen.common.js",
+  "main": "./dist/view-full-screen.common.js",
   "repository": "https://github.com/codkbing/view-full-screen",
   "bugs": "https://github.com/codbking/view-full-screen/issues",
-
   "files": [
     "dist/*"
   ],
@@ -17,10 +16,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library": "vue-cli-service build --target lib --name view-full-screen ./src/lib/install.js"
+    "build-library": "vue-cli-service build --target lib --name view-full-screen lib/install.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "view-full-screen": "^0.1.4",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -53,6 +53,10 @@
     "not dead"
   ],
   "description": "## Project setup ``` npm install ```",
-  "keywords": ["keywords", "go", "here"],
+  "keywords": [
+    "keywords",
+    "go",
+    "here"
+  ],
   "license": "ISC"
 }
